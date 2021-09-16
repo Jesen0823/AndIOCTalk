@@ -6,7 +6,7 @@ IOC相关
 
     工程结构如下图所示：
 
-![工程结构，包含两个独立模块，普通apt和javapoet](./images/picture.png)
+![工程结构，包含两个独立模块，普通apt和javapoet](./images/工程结构.png)
 
     生成代码文件模板：
 
