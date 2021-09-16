@@ -1,4 +1,4 @@
-package com.jesen.needle_library_javapoet;
+package com.jesen.bufferneedlejavapoet;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.jesen.needle_library_javapoet.test", appContext.getPackageName());
+        assertEquals("com.jesen.bufferneedlejavapoet", appContext.getPackageName());
     }
 }

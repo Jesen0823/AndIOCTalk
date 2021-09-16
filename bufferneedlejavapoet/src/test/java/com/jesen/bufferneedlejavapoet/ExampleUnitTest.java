@@ -1,4 +1,4 @@
-package com.jesen.needle_library_javapoet;
+package com.jesen.bufferneedlejavapoet;
 
 import org.junit.Test;
 

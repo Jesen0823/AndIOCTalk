@@ -23,7 +23,9 @@
     <bytecodeTargetLevel target="1.7">
       <module name="AndIOCTalk.app" target="11" />
       <module name="AndIOCTalk.bufferneedle" target="11" />
+      <module name="AndIOCTalk.bufferneedlejavapoet" target="11" />
       <module name="AndIOCTalk.needle_library" target="11" />
+      <module name="AndIOCTalk.needle_library_javapoet" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
