@@ -8,3 +8,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "AndIOCTalk"
 include ':app'
+include ':needle_annotation'
+include ':needle_compiler'
+include ':bufferneedle'
