@@ -13,6 +13,8 @@ public class JConstants {
 
     public static final String VIEW = "android.view.View";
 
+    public static final String CLASS_END = "$JViewBinder";
+
     // bind方法名
     public static final String BIND_METHOD_NAME = "bind";
 
