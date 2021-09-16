@@ -6,3 +6,19 @@ java {
     sourceCompatibility = JavaVersion.VERSION_1_7
     targetCompatibility = JavaVersion.VERSION_1_7
 }
+
+// 中文乱码问题（错误: 编码GBK的不可映射字符）
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+dependencies {
+
+    compileOnly 'com.google.auto.service:auto-service:1.0-rc6'
+    annotationProcessor 'com.google.auto.service:auto-service:1.0-rc6'
+
+    // 帮助我们通过类调用的形式来生成Java代码
+    implementation "com.squareup:javapoet:1.10.0"
+
+    implementation project(path: ':needle_annotation_javapoet')
+}
