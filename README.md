@@ -4,7 +4,7 @@ IOC相关
 #### 仿黄油刀 BufferKnife 控件注入，分别使用传统的apt方式 和 javapoet的方式实现
 
 
-    工程结构如下图所示：
+    **黄油针**工程结构如下图所示：
 
 ![工程结构，包含两个独立模块，普通apt和javapoet](./images/capture.jpg)
 
