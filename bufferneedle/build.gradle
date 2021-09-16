@@ -37,6 +37,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    implementation project(path: ':needle_compiler')
-    annotationProcessor project(path: ':needle_annotation')
+    implementation project(path: ':needle_library')
+    annotationProcessor project(path: ':needle_compiler')
+    implementation project(path: ':needle_annotation')
 }
